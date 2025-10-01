@@ -18,11 +18,10 @@ This repository provides the data and plotting scripts associated with our paper
    git clone https://github.com/<your-username>/<repo-name>.git
    cd <repo-name>
 
-# JETSCAPE/STAT package info
-===================================================================
+<!-- =================================================================== -->
+## JETSCAPE/STAT package info
 
-Links
------
+### Links
 repository home: [JETSCAPE/STAT](https://github.com/JETSCAPE/STAT/tree/master)
 
 File format specification: [v1.0](https://www.evernote.com/l/ACWFCWrEcPxHPJ3_P0zUT74nuasCoL_DBmY)
@@ -33,14 +32,11 @@ File reader documentation: [link](https://www.evernote.com/l/ACXYRePvf2lNirII32b
 
 [comment]: # (-- Need to double check if everything up to date)
 
-Introduction
-------------
+### Introduction
 
 This is the package for statistical analysis
 
-
-Installation
-------------
+### Installation
 
 1. Install python3, with packages `emcee` (<=2.2.1), `h5py`, `hic`, `numpy`, `PyYAML`, `scikit-learn` (>= 0.18), `scipy`, `pandas`, `pathlib`, `hsluv`, `matplotlib`.  Use pip to install them if needed
 
