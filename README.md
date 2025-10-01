@@ -11,13 +11,6 @@ This repository provides the data and plotting scripts associated with our paper
 - **`plot_*.py`** – Plotting scripts to reproduce the main results from the paper.  
 - **`figs/`** – Generated figures.  
 
-## How to Use
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
-
 <!-- =================================================================== -->
 ## JETSCAPE/STAT package info
 
