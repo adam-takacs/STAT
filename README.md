@@ -1,9 +1,29 @@
-Bayesian parameter estimation for relativistic heavy-ion collisions
-===================================================================
+# Bayesian Constraints on Pre-Equilibrium Jet Quenching and Predictions for Oxygen Collisions
 
+This repository provides the data and plotting scripts associated with our paper:  
+[**arXiv:2509.19430**](https://arxiv.org/abs/2509.19430)  
+
+## Repository Structure
+
+- **`data/`** – Numerical results with descriptive file names.  
+- **`src/`** – Implementation of the **JETSCALE/STAT** framework, including the Gaussian Process (GP) emulator used to evaluate the quenching model across parameter space.  
+- **`cache/`** – Stored GP emulator parameters.  
+- **`plot_*.py`** – Plotting scripts to reproduce the main results from the paper.  
+- **`figs/`** – Generated figures.  
+
+## How to Use
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/<your-username>/<repo-name>.git
+   cd <repo-name>
+
+# JETSCAPE/STAT package info
+===================================================================
 
 Links
 -----
+repository home: [JETSCAPE/STAT](https://github.com/JETSCAPE/STAT/tree/master)
 
 File format specification: [v1.0](https://www.evernote.com/l/ACWFCWrEcPxHPJ3_P0zUT74nuasCoL_DBmY)
 
@@ -12,8 +32,6 @@ File reader documentation: [link](https://www.evernote.com/l/ACXYRePvf2lNirII32b
 [comment]: # (Previous documentation: http://hic-param-est.readthedocs.io/en/latest/ )
 
 [comment]: # (-- Need to double check if everything up to date)
-
-
 
 Introduction
 ------------
