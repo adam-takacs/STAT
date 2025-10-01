@@ -1,9 +1,3 @@
 .DS_Store
-*.dat
-*.hdf
-*.npy
-*.pkl
-*.pyc
 *Answer*
 *walkthrough*
-plots/
