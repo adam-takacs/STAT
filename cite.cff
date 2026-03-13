@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+authors:
+  - family-names: Takacs
+    given-names: Adam
+  - family-names: Pablos
+    given-names: Daniel
+title: "Bayesian constraints on pre-equilibrium jet quenching and predictions
+    for oxygen collisions"
+version: 1.0
+identifiers:
+  - type: doi
+    value: 10.48550/arXiv.2509.19430
+date-released: 2026-03-14
