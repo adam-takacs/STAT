@@ -174,9 +174,10 @@ with PdfPages('figs/plot_Bayesian_posteriors.pdf') as pdf:
             for k, y in enumerate(Prediction_late['PbPb5020'][obs][cent]):
                 ax.semilogx(X, y, ':', color=color_line, lw=4, alpha=0.1, zorder=100)
 
-            ax.plot(0,0,':', color=color_line, lw=4, label=r'no preeq')
-            ax.plot(0,0,'-', color=color_line, lw=4, label=r'best fit')
-            ax.plot(0,0,'--', color=color_line, lw=4, label=r'early preeq')
+            if j==0 and (i==0 or i==3 or i==6 or i==9):
+                ax.plot(0,0,':', color=color_line, lw=4, label=r'no preeq')
+                ax.plot(0,0,'-', color=color_line, lw=4, label=r'best fit')
+                ax.plot(0,0,'--', color=color_line, lw=4, label=r'early preeq')
 
             ax.minorticks_on()
             ax.tick_params(axis='both', which='both', direction='in', top=True, right=True, labelsize=16)
